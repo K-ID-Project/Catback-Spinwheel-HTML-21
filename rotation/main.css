@@ -766,3 +766,20 @@ button:focus {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 } */
+
+.quay-ngay {
+    display: block;
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .quay-ngay {
+        bottom: 30%;
+    }
+}
+@media (max-width: 767px) {
+    .quay-ngay {
+        bottom: -40%;
+    }
+}
