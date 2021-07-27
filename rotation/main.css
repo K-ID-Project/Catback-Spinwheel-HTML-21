@@ -411,6 +411,7 @@ button:focus {
     }
     .wheel-point {
         width: 100% !important;
+        top:5px
     }
     .vqmm-title {
         /* width: 400px !important;
@@ -782,18 +783,39 @@ button:focus {
 .quay-ngay {
     display: block;
     position: absolute;
-    bottom: 40%;
+    /* bottom: 40%; */
+    bottom: 25%;
     width: 100%;
 }
 
 @media (max-width: 992px) {
     .quay-ngay {
         bottom: 30%;
+        width: 150%;
     }
 }
 
 @media (max-width: 767px) {
     .quay-ngay {
-        bottom: -40%;
+        bottom: 40%;
+        width: 200%;
+    }
+}
+@media screen and (max-width: 667px) {
+    .quay-ngay {
+        bottom: 35%;
+        width: 310%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .quay-ngay {
+        bottom: 50%;
+        width: 310%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .quay-ngay {
+        bottom: 55%;
+        width: 310%;
     }
 }
